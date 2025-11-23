@@ -1,1 +1,5 @@
-
+scene.setBackgroundColor(9)
+scene.setBackgroundImage(assets.image`Cenario`)
+let Tony_Shark = sprites.create(assets.image`Tony_Shark`, SpriteKind.Player)
+controller.moveSprite(Tony_Shark)
+Tony_Shark.setStayInScreen(true)
